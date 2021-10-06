@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conversor {
+    border-radius: 12px;
+    margin: 13px 13px;
+    padding: 30px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.conversor:focus-within{
+    box-shadow: 0 0 7px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.input {
+    margin-top: 14px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    max-width: 60%;
+}
